@@ -3,30 +3,30 @@ Basic setup for small projects
 
 ## Usage
 #### Clone repository
-$git clone https://github.com/Wojtek534/LightSetup.git
+```$git clone https://github.com/Wojtek534/LightSetup.git```
 
 #### Install dependencies
-$npm install
+```$npm install```
 
 #### Run app
-$npm start
+```$npm start```
 
 ## Dist
 #### Get bundle
-$webpack
+```$webpack```
 
 #### Crate dist
-$gulp dist
+```$gulp dist```
 
 #### NPM Save config (--save)
-$npm config set save=true
+```$npm config set save=true```
 
 ## Share
 #### Run app
-$npm start
+```$npm start```
 
 #### Add terminal
-$npm run lt
+```$npm run lt```
 
 ## Packages
 | Package        | Description|

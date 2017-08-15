@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "node build/startmsg",
     "start": "npm-run-all --parallel --silent style-watch runapp",
     "runapp": "node build/app",

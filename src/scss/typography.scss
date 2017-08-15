@@ -1,0 +1,62 @@
+// Typography
+body,
+button,
+input,
+select,
+textarea {
+    font-size: $base-font;
+    line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: $base-font+12;
+    line-height: $base-line-height;
+    font-weight: $base-weight+300;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: $base-font+10;
+    line-height: $base-line-height;
+    font-weight: $base-weight+300;
+}
+
+h3 {
+    font-size: $base-font+6;
+    line-height: $base-line-height;
+    font-weight: $base-weight+100;
+}
+
+h4 {
+    font-size: $base-font+12;
+    line-height: $base-line-height;
+    font-weight: $base-weight+200;
+}
+
+h5 {
+    font-size: $base-font+10;
+    line-height: $base-line-height;
+    font-weight: $base-weight+200;
+}
+
+h6 {
+    font-size: $base-font + 14;
+    line-height: $base-line-height;
+    font-weight: $base-weight+500;
+}
+
+p {
+    font-size: $base-font+6;
+    line-height: $base-line-height;
+    font-weight: $base-weight;
+}

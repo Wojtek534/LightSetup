@@ -1,0 +1,35 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "node build/startmsg",
+    "start": "npm-run-all --parallel --silent style-watch runapp",
+    "runapp": "node build/app",
+    "style": "sass src/style.scss:src/style.css",
+    "style-watch": "npm run style -- --watch",
+    "lt": "lt --port 3000 --subdomain mydomain123"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wojtek534/LightSetup.git"
+  },
+  "author": "Wojciech Rzepka",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "chalk": "^2.1.0",
+    "css-loader": "^0.28.4",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-minify": "^1.0.0",
+    "localtunnel": "^1.8.3",
+    "npm-run-all": "^4.0.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.4",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.18.2"
+  }
+}

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono");
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 12px;
+  line-height: 1.4; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+h1 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 600; }
+
+h3 {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 400; }
+
+h4 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 500; }
+
+h5 {
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 500; }
+
+h6 {
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 800; }
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 300; }
+
+.navbar {
+  background-color: #1E2429;
+  padding: 20px; }
+
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.4;
+  font-weight: 300; }
+
+/*# sourceMappingURL=style.css.map */

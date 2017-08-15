@@ -19,7 +19,9 @@
   "author": "Wojciech Rzepka",
   "license": "MIT",
   "dependencies": {
-    "animate.css": "^3.5.2",
+    "animate.css": "^3.5.2"
+  },
+  "devDependencies": {
     "chalk": "^2.1.0",
     "css-loader": "^0.28.4",
     "express": "^4.15.4",

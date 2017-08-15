@@ -1,12 +1,13 @@
 .navbar {
-    background-color: $main-color;
-    padding: 20px;
+  background-color: $main-color;
+  padding: 20px;
 }
+
 .navbar .navbar-brand {
-    color: #ffffff;
-    font-size: $base-font;
-    font-family: $font;
-    text-transform: uppercase;
-    line-height: $base-line-height;
-    font-weight: $base-weight
+  color: #ffffff;
+  font-size: $base-font;
+  font-family: $font;
+  text-transform: uppercase;
+  line-height: $base-line-height;
+  font-weight: $base-weight
 }

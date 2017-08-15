@@ -1,4 +1,4 @@
-# LightSetup
+# LightSetup ![alt-text](https://travis-ci.org/Wojtek534/LightStarter.svg?branch=master)
 Basic setup for small projects
 
 ## Usage

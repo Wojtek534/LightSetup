@@ -1,4 +1,7 @@
-# LightSetup ![alt-text](https://travis-ci.org/Wojtek534/LightStarter.svg?branch=master)
+# LightSetup 
+![Build status](https://travis-ci.org/Wojtek534/LightStarter.svg?branch=master)
+![Dependency status](https://david-dm.org/wojtek534/LightStarter.svg)
+
 Basic setup for small projects
 
 ## Usage

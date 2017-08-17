@@ -1,3 +1,3 @@
-var chalk = require('chalk');
+let chalk = require('chalk');
 
-console.log(chalk.yellow('App starting...'))
+console.log(chalk.yellow('App starting...'));

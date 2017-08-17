@@ -16,7 +16,10 @@ $npm install
 ```
 $npm start
 ```
-
+### Lint
+```
+$npm run lint
+```
 ## Dist
 #### Get bundle
 ```
@@ -47,18 +50,19 @@ $npm run lt
 ## Packages
 | Package        | Description|
 | ------------- |:-------------:|
-| animate.css | animations for classes|
+| animate.css | animations for classes |
 | bootstrap4 | responsive classes|
-| chalk | colors on console logs      |
-| font awesome | icons   |
-| css-loader | module for webpack to bundle css files   |
-| express | localhost  |
-| gulp | task runner  |
-| gulp-minify | convert js/css to min  |
+| chalk | colors on console logs |
+| font awesome | icons |
+| css-loader | module for webpack to bundle css files |
+| eslint | check errors in javascript files |
+| express | localhost |
+| gulp | task runner |
+| gulp-minify | convert js/css to min |
 | localtunnel | hosting on lt subdomain (for test) |
-| npm-run-all | multiple npm script run  |
-| style-loader | module for webpack  |
+| npm-run-all | multiple npm script run |
+| style-loader | module for webpack |
 | scrollReveal | animations for classes|
 | webpack | bundle  |
-| webpack-dev-middleware | virtual bundle  |
-| webpack-hot-middleware | virtual bundle  |
+| webpack-dev-middleware | virtual bundle |
+| webpack-hot-middleware | virtual bundle |

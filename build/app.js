@@ -1,12 +1,12 @@
-var express = require('express');
-var chalk = require('chalk');
-var path = require('path');
-var webpack = require('webpack')
-var config = require('../webpack.config');
+let express = require('express');
+let chalk = require('chalk');
+let path = require('path');
+let webpack = require('webpack');
+let config = require('../webpack.config');
 
-var app = express();
-var compiler = webpack(config);
-var port = 3000;
+let app = express();
+let compiler = webpack(config);
+let port = 3000;
 
 // Virtual bundle
 app.use(require('webpack-dev-middleware')(compiler, {
@@ -17,10 +17,10 @@ app.use(require('webpack-hot-middleware')(compiler));
 // Send index as front page
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, '../src/index.html'));
-})
+});
 // Send folder files to localhost
-app.use(express.static('src'))
+app.use(express.static('src'));
 // Add some cool green log
 app.listen(port, function () {
-  console.log(chalk.green('App running on port ' + port))
-})
+  console.log(chalk.green('App running on port ' + port));
+});

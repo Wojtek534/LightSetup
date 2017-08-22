@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "node build/startmsg",
+    "prestart": "node tools/startmsg",
     "start": "npm-run-all --parallel --silent style-watch runapp",
-    "runapp": "node build/app",
+    "runapp": "node tools/app",
     "style": "sass src/style.scss:src/style.css",
     "style-watch": "npm run style -- --watch",
-    "lint": "node_modules/.bin/esw webpack.config.* src build",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools",
     "lt": "lt --port 3000 --subdomain mydomain123"
   },
   "repository": {

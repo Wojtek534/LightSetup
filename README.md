@@ -7,7 +7,7 @@ Basic setup for small projects
 ## Usage
 #### Clone repository
 ```
-$git clone https://github.com/Wojtek534/LightSetup.git
+$git clone https://github.com/Wojtek534/LightStarter.git
 ```
 
 #### Install dependencies
